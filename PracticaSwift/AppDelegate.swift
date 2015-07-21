@@ -15,7 +15,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        var def = NSUserDefaults.standardUserDefaults()
+        var object : Int? = def.integerForKey(LAST_CHARACTER_SELECTED_SECTION)
+        if let objc = object{
+            
+        }else{
+            def.setInteger(0, forKey: LAST_CHARACTER_SELECTED_SECTION)
+            def.setInteger(0, forKey: LAST_CHARACTER_SELECTED_ROW)
+            def.synchronize()
+        }
+        
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        let universe = RNOStarWarsUniverse()
+        
+        if(UIDevice.currentDevice().userInterfaceIdiom == UIUserInterfaceIdiom.Pad){
+            self.configureForPad(universe)
+        }else{
+            self.configureForPhone(universe)
+        }
+        
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
@@ -39,6 +60,43 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func configureForPad(model: RNOStarWarsUniverse){
+        var uVC = RNOUniverseTableViewController(model: model, style: UITableViewStyle.Plain)
+        var charVC = RNOCharacterViewController(model: self.lastSelectedCharacterInModel(model))
+        var uNav = UINavigationController(rootViewController: uVC)
+        var cNav = UINavigationController(rootViewController: charVC)
+        var splitVC = UISplitViewController()
+        splitVC.viewControllers=[uNav, cNav]
+        splitVC.delegate = charVC
+        uVC.delegate = charVC
+        self.window?.rootViewController = splitVC
+    }
+    
+    func configureForPhone(model: RNOStarWarsUniverse){
+        
+        var uVC = RNOUniverseTableViewController(model: model, style: UITableViewStyle.Plain)
+        var navVC = UINavigationController(rootViewController: uVC)
+        uVC.delegate=uVC
+        self.window?.rootViewController = navVC
+        
+    }
+    
+    func lastSelectedCharacterInModel(universe: RNOStarWarsUniverse) -> RNOStarWarsCharacter{
+        
+        var def  = NSUserDefaults.standardUserDefaults()
+        var section: Int = def.integerForKey(LAST_CHARACTER_SELECTED_SECTION)
+        var pos: Int = def.integerForKey(LAST_CHARACTER_SELECTED_ROW)
+        var character : RNOStarWarsCharacter
+        if (section  == IMPERIAL_SECTION){
+            character = universe.imperialAtIndex(pos)
+        }else{
+            character = universe.rebelAtIndex(pos)
+        }
+        
+        return character
+        
     }
 
 

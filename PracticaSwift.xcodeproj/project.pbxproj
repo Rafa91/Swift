@@ -8,11 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		05426D1B1B034840001665A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05426D1A1B034840001665A4 /* AppDelegate.swift */; };
-		05426D1D1B034840001665A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05426D1C1B034840001665A4 /* ViewController.swift */; };
-		05426D201B034840001665A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05426D1E1B034840001665A4 /* Main.storyboard */; };
 		05426D221B034840001665A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05426D211B034840001665A4 /* Images.xcassets */; };
 		05426D251B034840001665A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05426D231B034840001665A4 /* LaunchScreen.xib */; };
 		05426D311B034840001665A4 /* PracticaSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05426D301B034840001665A4 /* PracticaSwiftTests.swift */; };
+		05426D4B1B034B2A001665A4 /* c3po.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05426D3B1B034B2A001665A4 /* c3po.jpg */; };
+		05426D4C1B034B2A001665A4 /* c3po.caf in Resources */ = {isa = PBXBuildFile; fileRef = 05426D3C1B034B2A001665A4 /* c3po.caf */; };
+		05426D4D1B034B2A001665A4 /* chewbacca.caf in Resources */ = {isa = PBXBuildFile; fileRef = 05426D3D1B034B2A001665A4 /* chewbacca.caf */; };
+		05426D4E1B034B2A001665A4 /* chewbacca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05426D3E1B034B2A001665A4 /* chewbacca.jpg */; };
+		05426D4F1B034B2A001665A4 /* darthVader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05426D3F1B034B2A001665A4 /* darthVader.jpg */; };
+		05426D501B034B2A001665A4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 05426D401B034B2A001665A4 /* icon.png */; };
+		05426D511B034B2A001665A4 /* iconSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 05426D411B034B2A001665A4 /* iconSmall.png */; };
+		05426D521B034B2A001665A4 /* palpatine.caf in Resources */ = {isa = PBXBuildFile; fileRef = 05426D421B034B2A001665A4 /* palpatine.caf */; };
+		05426D531B034B2A001665A4 /* palpatine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05426D431B034B2A001665A4 /* palpatine.jpg */; };
+		05426D541B034B2A001665A4 /* r2-d2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 05426D441B034B2A001665A4 /* r2-d2.caf */; };
+		05426D551B034B2A001665A4 /* R2-D2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05426D451B034B2A001665A4 /* R2-D2.jpg */; };
+		05426D561B034B2A001665A4 /* tarkin.caf in Resources */ = {isa = PBXBuildFile; fileRef = 05426D461B034B2A001665A4 /* tarkin.caf */; };
+		05426D571B034B2A001665A4 /* tarkin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05426D471B034B2A001665A4 /* tarkin.jpg */; };
+		05426D581B034B2A001665A4 /* vader.caf in Resources */ = {isa = PBXBuildFile; fileRef = 05426D481B034B2A001665A4 /* vader.caf */; };
+		05426D591B034B2A001665A4 /* yoda.caf in Resources */ = {isa = PBXBuildFile; fileRef = 05426D491B034B2A001665A4 /* yoda.caf */; };
+		05426D5A1B034B2A001665A4 /* yoda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05426D4A1B034B2A001665A4 /* yoda.jpg */; };
+		05426D5C1B034B67001665A4 /* RNOStarWarsCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05426D5B1B034B67001665A4 /* RNOStarWarsCharacter.swift */; };
+		05426D5E1B035018001665A4 /* RNOStarWarsUniverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05426D5D1B035018001665A4 /* RNOStarWarsUniverse.swift */; };
+		05774ED31B5D44E000D93372 /* RNOWikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05774ED11B5D44E000D93372 /* RNOWikiViewController.swift */; };
+		05774ED41B5D44E000D93372 /* RNOWikiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05774ED21B5D44E000D93372 /* RNOWikiViewController.xib */; };
+		05774ED61B5D53E100D93372 /* RNOUniverseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05774ED51B5D53E100D93372 /* RNOUniverseTableViewController.swift */; };
+		05774ED91B5D8BB000D93372 /* RNOCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05774ED71B5D8BB000D93372 /* RNOCharacterViewController.swift */; };
+		05774EDA1B5D8BB000D93372 /* RNOCharacterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05774ED81B5D8BB000D93372 /* RNOCharacterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +50,34 @@
 		05426D151B03483F001665A4 /* PracticaSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05426D191B03483F001665A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05426D1A1B034840001665A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05426D1C1B034840001665A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		05426D1F1B034840001665A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05426D211B034840001665A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		05426D241B034840001665A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		05426D2A1B034840001665A4 /* PracticaSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05426D2F1B034840001665A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05426D301B034840001665A4 /* PracticaSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaSwiftTests.swift; sourceTree = "<group>"; };
+		05426D3B1B034B2A001665A4 /* c3po.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c3po.jpg; sourceTree = "<group>"; };
+		05426D3C1B034B2A001665A4 /* c3po.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = c3po.caf; sourceTree = "<group>"; };
+		05426D3D1B034B2A001665A4 /* chewbacca.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = chewbacca.caf; sourceTree = "<group>"; };
+		05426D3E1B034B2A001665A4 /* chewbacca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chewbacca.jpg; sourceTree = "<group>"; };
+		05426D3F1B034B2A001665A4 /* darthVader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darthVader.jpg; sourceTree = "<group>"; };
+		05426D401B034B2A001665A4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		05426D411B034B2A001665A4 /* iconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSmall.png; sourceTree = "<group>"; };
+		05426D421B034B2A001665A4 /* palpatine.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = palpatine.caf; sourceTree = "<group>"; };
+		05426D431B034B2A001665A4 /* palpatine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palpatine.jpg; sourceTree = "<group>"; };
+		05426D441B034B2A001665A4 /* r2-d2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "r2-d2.caf"; sourceTree = "<group>"; };
+		05426D451B034B2A001665A4 /* R2-D2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "R2-D2.jpg"; sourceTree = "<group>"; };
+		05426D461B034B2A001665A4 /* tarkin.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tarkin.caf; sourceTree = "<group>"; };
+		05426D471B034B2A001665A4 /* tarkin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tarkin.jpg; sourceTree = "<group>"; };
+		05426D481B034B2A001665A4 /* vader.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = vader.caf; sourceTree = "<group>"; };
+		05426D491B034B2A001665A4 /* yoda.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yoda.caf; sourceTree = "<group>"; };
+		05426D4A1B034B2A001665A4 /* yoda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoda.jpg; sourceTree = "<group>"; };
+		05426D5B1B034B67001665A4 /* RNOStarWarsCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNOStarWarsCharacter.swift; sourceTree = "<group>"; };
+		05426D5D1B035018001665A4 /* RNOStarWarsUniverse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNOStarWarsUniverse.swift; sourceTree = "<group>"; };
+		05774ED11B5D44E000D93372 /* RNOWikiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNOWikiViewController.swift; sourceTree = "<group>"; };
+		05774ED21B5D44E000D93372 /* RNOWikiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RNOWikiViewController.xib; sourceTree = "<group>"; };
+		05774ED51B5D53E100D93372 /* RNOUniverseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNOUniverseTableViewController.swift; sourceTree = "<group>"; };
+		05774ED71B5D8BB000D93372 /* RNOCharacterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNOCharacterViewController.swift; sourceTree = "<group>"; };
+		05774ED81B5D8BB000D93372 /* RNOCharacterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RNOCharacterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +119,13 @@
 		05426D171B03483F001665A4 /* PracticaSwift */ = {
 			isa = PBXGroup;
 			children = (
+				05426D601B036AAB001665A4 /* Controllers */,
+				05426D3A1B034B1B001665A4 /* Resources */,
 				05426D1A1B034840001665A4 /* AppDelegate.swift */,
-				05426D1C1B034840001665A4 /* ViewController.swift */,
-				05426D1E1B034840001665A4 /* Main.storyboard */,
 				05426D211B034840001665A4 /* Images.xcassets */,
 				05426D231B034840001665A4 /* LaunchScreen.xib */,
 				05426D181B03483F001665A4 /* Supporting Files */,
+				05426D5F1B036A96001665A4 /* Models */,
 			);
 			path = PracticaSwift;
 			sourceTree = "<group>";
@@ -110,6 +153,50 @@
 				05426D2F1B034840001665A4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05426D3A1B034B1B001665A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05426D3B1B034B2A001665A4 /* c3po.jpg */,
+				05426D3C1B034B2A001665A4 /* c3po.caf */,
+				05426D3D1B034B2A001665A4 /* chewbacca.caf */,
+				05426D3E1B034B2A001665A4 /* chewbacca.jpg */,
+				05426D3F1B034B2A001665A4 /* darthVader.jpg */,
+				05426D401B034B2A001665A4 /* icon.png */,
+				05426D411B034B2A001665A4 /* iconSmall.png */,
+				05426D421B034B2A001665A4 /* palpatine.caf */,
+				05426D431B034B2A001665A4 /* palpatine.jpg */,
+				05426D441B034B2A001665A4 /* r2-d2.caf */,
+				05426D451B034B2A001665A4 /* R2-D2.jpg */,
+				05426D461B034B2A001665A4 /* tarkin.caf */,
+				05426D471B034B2A001665A4 /* tarkin.jpg */,
+				05426D481B034B2A001665A4 /* vader.caf */,
+				05426D491B034B2A001665A4 /* yoda.caf */,
+				05426D4A1B034B2A001665A4 /* yoda.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		05426D5F1B036A96001665A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				05426D5D1B035018001665A4 /* RNOStarWarsUniverse.swift */,
+				05426D5B1B034B67001665A4 /* RNOStarWarsCharacter.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		05426D601B036AAB001665A4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				05774ED11B5D44E000D93372 /* RNOWikiViewController.swift */,
+				05774ED21B5D44E000D93372 /* RNOWikiViewController.xib */,
+				05774ED51B5D53E100D93372 /* RNOUniverseTableViewController.swift */,
+				05774ED71B5D8BB000D93372 /* RNOCharacterViewController.swift */,
+				05774ED81B5D8BB000D93372 /* RNOCharacterViewController.xib */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +279,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05426D201B034840001665A4 /* Main.storyboard in Resources */,
+				05426D531B034B2A001665A4 /* palpatine.jpg in Resources */,
+				05426D4D1B034B2A001665A4 /* chewbacca.caf in Resources */,
+				05426D511B034B2A001665A4 /* iconSmall.png in Resources */,
+				05426D581B034B2A001665A4 /* vader.caf in Resources */,
+				05426D5A1B034B2A001665A4 /* yoda.jpg in Resources */,
+				05426D591B034B2A001665A4 /* yoda.caf in Resources */,
+				05426D561B034B2A001665A4 /* tarkin.caf in Resources */,
+				05426D4F1B034B2A001665A4 /* darthVader.jpg in Resources */,
+				05774ED41B5D44E000D93372 /* RNOWikiViewController.xib in Resources */,
 				05426D251B034840001665A4 /* LaunchScreen.xib in Resources */,
+				05426D4C1B034B2A001665A4 /* c3po.caf in Resources */,
+				05426D501B034B2A001665A4 /* icon.png in Resources */,
+				05426D4B1B034B2A001665A4 /* c3po.jpg in Resources */,
+				05426D541B034B2A001665A4 /* r2-d2.caf in Resources */,
+				05774EDA1B5D8BB000D93372 /* RNOCharacterViewController.xib in Resources */,
 				05426D221B034840001665A4 /* Images.xcassets in Resources */,
+				05426D4E1B034B2A001665A4 /* chewbacca.jpg in Resources */,
+				05426D551B034B2A001665A4 /* R2-D2.jpg in Resources */,
+				05426D521B034B2A001665A4 /* palpatine.caf in Resources */,
+				05426D571B034B2A001665A4 /* tarkin.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +316,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05426D1D1B034840001665A4 /* ViewController.swift in Sources */,
+				05426D5C1B034B67001665A4 /* RNOStarWarsCharacter.swift in Sources */,
+				05774ED61B5D53E100D93372 /* RNOUniverseTableViewController.swift in Sources */,
+				05774ED91B5D8BB000D93372 /* RNOCharacterViewController.swift in Sources */,
 				05426D1B1B034840001665A4 /* AppDelegate.swift in Sources */,
+				05426D5E1B035018001665A4 /* RNOStarWarsUniverse.swift in Sources */,
+				05774ED31B5D44E000D93372 /* RNOWikiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +344,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		05426D1E1B034840001665A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05426D1F1B034840001665A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		05426D231B034840001665A4 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,6 +511,7 @@
 				05426D361B034840001665A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05426D371B034840001665A4 /* Build configuration list for PBXNativeTarget "PracticaSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +520,7 @@
 				05426D391B034840001665A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
